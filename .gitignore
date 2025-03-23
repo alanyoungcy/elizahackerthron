@@ -190,3 +190,4 @@ lit-config.json
 extra
 
 *.pkey
+.env.bk
