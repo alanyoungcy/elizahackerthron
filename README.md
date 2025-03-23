@@ -22,7 +22,7 @@ Check out the [Eliza's README](https://github.com/elizaOS/eliza/tree/main?tab=re
   - Provide standard action / evaluator wrapper for plugins.
   - Let develoeprs focus on the business logic of actions / evaluators.
 - Use shared `flow.json` for all Flow Cadence contracts dependencies in Flow relevant plugins.
-- Provide accounts management for AI Agents based on Flow’s unique Account Linking feature.
+- Provide accounts management for AI Agents based on Flow's unique Account Linking feature.
   - Fully on-chain child accounts management without any extra off-chain private key custodial service.
   - Each user account in Eliza system can be allocated with a full functional Flow wallet fully controlled by the AI Agent as its child account.
   - You can customize any transaction for your users based on the on-chain child accounts management system.
@@ -65,3 +65,52 @@ flow deps add mainnet://0xAddress.ContractName
 - [Fixes Telegram](https://t.me/fixes_world). Best for: sharing your applications and hanging out with the Fixes community.
 - [Eliza Discord](https://discord.gg/ai16z)
 - [Flow Discord](https://discord.gg/flow)
+
+# GMGN Wallet Change Detector
+
+A plugin to identify potential wallet changes for users on the GMGN.ai platform, built using the Elizaonflow framework.
+
+## Overview
+
+This project creates a plugin that monitors and detects when users potentially change their cryptocurrency wallets on the GMGN.ai platform. By tracking these changes, the system can provide better security, user verification, and continuity of service across wallet transitions.
+
+## Features
+
+- Real-time detection of wallet change events
+- User verification workflows for wallet transitions
+- Historical tracking of wallet changes
+- Analytics on wallet change patterns
+- Secure handling of wallet identification data
+- Integration with GMGN.ai platform via plugin architecture
+
+## Technology Stack
+
+- **Framework**: Elizaonflow
+- **Language**: TypeScript
+- **Backend**: NestJS
+- **Testing**: Jest
+- **Documentation**: JSDoc
+
+## Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/gmgn-wallet-change-detector.git
+
+# Navigate to the project directory
+cd gmgn-wallet-change-detector
+
+# Install dependencies
+npm install
+
+# Configure environment variables
+cp .env.example .env
+# Edit .env file with your configuration
+
+# Run development server
+npm run start:dev
+```
+
+## Project Structure
+
+The project follows NestJS modular architecture as outlined in the Eliza guidelines:
