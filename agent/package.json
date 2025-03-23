@@ -21,6 +21,7 @@
         "@elizaos-plugins/plugin-di": "workspace:*",
         "@elizaos-plugins/plugin-flow": "workspace:*",
         "@elizaos-plugins/plugin-flow-advanced": "workspace:*",
+        "@elizaos-plugins/plugin-groot": "workspace:^",
         "@elizaos/client-direct": "workspace:*",
         "@elizaos/core": "workspace:*",
         "@elizaos/plugin-bootstrap": "workspace:*",

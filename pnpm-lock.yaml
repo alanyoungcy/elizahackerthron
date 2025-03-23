@@ -127,6 +127,9 @@ importers:
       '@elizaos-plugins/plugin-flow-advanced':
         specifier: workspace:*
         version: link:../packages/plugin-flow-advanced
+      '@elizaos-plugins/plugin-groot':
+        specifier: workspace:^
+        version: link:../packages/plugin-groot
       '@elizaos/client-direct':
         specifier: workspace:*
         version: link:../deps/eliza/packages/client-direct
@@ -655,7 +658,7 @@ importers:
         specifier: ^3.0.5
         version: 3.0.5(@types/debug@4.1.12)(@types/node@22.13.5)(jiti@2.4.2)(jsdom@25.0.1(bufferutil@4.0.9)(canvas@2.11.2(encoding@0.1.13))(utf-8-validate@6.0.5))(terser@5.37.0)(tsx@4.19.2)(yaml@2.7.0)
 
-  packages/plugin-flow-template:
+  packages/plugin-groot:
     dependencies:
       '@elizaos-plugins/plugin-di':
         specifier: workspace:*
